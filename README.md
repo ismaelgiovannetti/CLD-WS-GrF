@@ -58,6 +58,21 @@ pip install google-cloud-vision
 
 ---
 
+## Commandes
+
+Nous présentons ici quelques fonctions utiles de Google Cloud Vision.
+
+Un exemple d'utilisation est fourni plus bas dans la section "Exemple d'utilisation"
+
+| Function                | Parameter | Detect                                  |
+|-------------------------|-----------|-----------------------------------------|
+| client.label_detection  | an image  | Detect broad sets of categories within an image |
+| client.text_detection   | an image | Detect and extract text within an image |
+| client.image_properties | an image | Detect general attributes of an image |
+
+Pour plus de détails, consulter la [documentation](https://cloud.google.com/sdk/gcloud/reference/ml/vision).
+
+
 ## Utilisation du script Python
 
 Voici un rappel rapide du fonctionnement du script `analyze_image` :
